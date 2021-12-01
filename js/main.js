@@ -30,7 +30,7 @@ $( document ).ready(function() {
     })
     $("#hcd-overlay2").hide();
     $("#hcd").hover(function() {
-      $("#hcd-overlay2").delay(1600).fadeToggle();
+      $("#hcd-overlay2").fadeToggle();
     })
 
     $("#ui-overlay").hide();
@@ -39,7 +39,7 @@ $( document ).ready(function() {
     })
     $("#ui-overlay2").hide();
     $("#ui").hover(function() {
-      $("#ui-overlay2").delay(1600).fadeToggle();
+      $("#ui-overlay2").fadeToggle();
     })
 
     $("#fe-overlay").hide();
@@ -48,7 +48,7 @@ $( document ).ready(function() {
     })
     $("#fe-overlay2").hide();
     $("#fe").hover(function() {
-      $("#fe-overlay2").delay(1600).fadeToggle();
+      $("#fe-overlay2").fadeToggle();
     })
 
     let videoElem = document.getElementById("case-study1-video");

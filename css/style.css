@@ -847,12 +847,17 @@ footer {
 }
 
 .cs-content-card {
-    margin-top: 144px;
+    /* margin-top: 144px; */
     padding: 72px !important;
     display: flex !important;
+    flex-direction: column-reverse !important;
     align-items: flex-end;
     justify-content: center;
     background-color: #EEEEEE !important;
+}
+
+.jumbotron {
+    margin-bottom: 0px !important;
 }
 
 .cs-content-card:nth-last-of-type(even) {
@@ -865,11 +870,14 @@ footer {
 
 .cs-content-card-text {
     padding: 2vw;
-    max-width: 60vw;
+    align-self: flex-start !important;
+    /* max-width: 60vw; */
 }
 
 .cs-content-card-img {
     max-height: 500px;
+    max-width: 90vw !important;
+    align-self: center !important;
 }
 
 .display-4 {
@@ -922,6 +930,9 @@ figcaption {
 
 .cs-content-card-text p {
     margin-bottom: 8px !important;
+}
+.cs-content-card-media {
+    align-self: center !important;
 }
 
 #double-image {
@@ -1119,4 +1130,12 @@ figcaption {
 #tribi-prototype {
     width: 325px;
     height: 735px;
+}
+
+.down-cs {
+    margin-bottom: 2vw !important;
+}
+
+.dark-card {
+    
 }
